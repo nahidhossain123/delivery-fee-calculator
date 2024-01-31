@@ -1,3 +1,4 @@
+import CalculationDetails from "./CalculationDetails";
 import { resultType } from "./DeliveryFeeCalculator";
 
 type resulPropsType = {
@@ -13,6 +14,9 @@ const CalculationResult = ({ result }: resulPropsType) => {
           <span data-test-id="fee">{result.total.toFixed(1)}</span>
           <span> €</span>
         </p>
+      </div>
+      <div className="calculation-detials">
+        <CalculationDetails result={result} />
       </div>
     </div>
   );
