@@ -1,3 +1,5 @@
+<img src="https://github.com/nahidhossain123/delivery-fee-calculator/blob/main/screenshots/delivery-fee-calculator1.PNG?raw=true" />
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
